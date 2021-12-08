@@ -1,0 +1,62 @@
+.card {
+    height: 100%;
+    box-shadow: 3px 3px 10px 0 #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card__category {
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem;
+    color: white;
+}
+
+.card__image {
+    max-width: 70%;
+    height: 200px;
+    padding: 1rem 1rem;
+}
+
+.card__image img {
+    object-fit: cover;
+    max-width: 40%;
+}
+
+.card__price {
+    font-size: 1rem;
+    color: white;
+    margin: 0 auto;
+}
+
+.card__title-inner{
+    display: flex;
+}
+
+.card__title {
+    font-size: 1.25rem;
+    color: white;
+    padding: 0 10px;
+    align-self: flex-start;
+}
+
+.card__subtitle {
+    font-size: 1rem;
+    text-align: center;
+
+}
+
+.card__button {
+    background: none;
+    color: #ffa260;
+    border-radius: 5%;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+}
+
+
+
+
