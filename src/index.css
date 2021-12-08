@@ -1,8 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
-
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -17,9 +12,9 @@ code {
     monospace;
 }
 
-#root {
-  background-color: #383A3F;
-}
+/*#root {*/
+/*  background-color: #383A3F;*/
+/*}*/
 
 
 
