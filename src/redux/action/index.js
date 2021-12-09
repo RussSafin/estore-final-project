@@ -2,15 +2,15 @@
 export const addCart = (product) => {
     return{
         type : "ADDITEM",
-        payload: product
+        payload : product
     }
 }
 
 
-// For Delete Item from Cart
+// For Delete Item From Cart
 export const delCart = (product) => {
     return{
         type : "DELITEM",
-        payload: product
+        payload : product
     }
 }
