@@ -4,7 +4,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #383A3F;
 }
 
 code {
@@ -12,9 +11,6 @@ code {
     monospace;
 }
 
-/*#root {*/
-/*  background-color: #383A3F;*/
-/*}*/
 
 
 

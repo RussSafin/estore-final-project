@@ -2,6 +2,7 @@ import React from 'react';
 import {NavLink} from 'react-router-dom';
 import {useSelector} from 'react-redux';
 
+
 const Navbar = () => {
         const state = useSelector((state) => state.handleCart)
 
@@ -10,7 +11,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
                 <div className="container">
                     <NavLink className="navbar-brand fw-bold fs-4" to="/">
-                        MY COLLECTION
+                        KAZAN COLLECTION
                     </NavLink>
                     <button className="navbar-toggler"
                             type="button"
