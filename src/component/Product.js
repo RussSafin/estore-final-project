@@ -9,6 +9,7 @@ const Product = () => {
     const {id} = useParams();
     const [product, setProduct] = useState([]);
     const [loading, setLoading] = useState(false);
+    const [disable, setDisable] = useState(false);
 
     const dispatch = useDispatch();
     const addProduct = (product) => {
@@ -66,8 +67,11 @@ const Product = () => {
                     <p className="lead">
                         {product.description}
                     </p>
-                    <button className="btn btn-outline-dark px-4 py-2"
-                            onClick={() => addProduct(product)}
+                    <button disabled={disable} className="btn btn-outline-dark px-4 py-2"
+                            onClick={() => {
+                                addProduct(product);
+                                setDisable(true);
+                            }}
                     >
                         Add to Cart
                     </button>
